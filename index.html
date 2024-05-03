@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section class="section section-hero">
+      <div class="container">
+        <div class="hero-wrap">
+          <div class="hero-wrap-one">
+            <h1 class="hero-title">
+              Welcome to our <span class="hero-span"> collection</span> of
+              premium watches
+            </h1>
+            <p class="hero-text">
+              Our watches are not just timepieces, but also an expression of
+              your personality and lifestyle. From classic designs to modern
+              ones, we have a watch to suit every taste and occasion.
+            </p>
+          </div>
+          <div class="hero-wrap-two">
+            <picture>
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ./img/hero-img-01-1x.png 1x,
+                  ./img/hero-img-01-2x.png 2x
+                "
+              />
+              <source
+                media="(min-width: 768px) and (max-width: 1279px)"
+                srcset="
+                  ./img/hero-img-01-tab-1x.png 1x,
+                  ./img/hero-img-01-tab-2x.png 2x
+                "
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./img/hero-img-01-mob-1x.png 1x,
+                  ./img/hero-img-01-mob-2x.png 2x
+                "
+              />
+              <img
+                src="./img/hero-img-01-1x.png"
+                alt="Our team"
+                class="hero-img"
+              />
+            </picture>
+            <a href="#footer" class="hero-scroll-down">Scroll down</a>
+          </div>
+        </div>
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="./img/hero-img-02-1x.png 1x, ./img/hero-img-02-2x.png 2x"
+          />
+          <source
+            media="(min-width: 768px) and (max-width: 1279px)"
+            srcset="
+              ./img/hero-img-02-tab-1x.png 1x,
+              ./img/hero-img-02-tab-2x.png 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/hero-img-02-mob-1x.png 1x,
+              ./img/hero-img-02-mob-1x.png 1x
+            "
+          />
+          <img
+            src="./img/hero-img-02-1x.png"
+            alt="Wrist watch"
+            class="hero-foto"
+          />
+        </picture>
+      </div>
+    </section>
+  </body>
+</html>
