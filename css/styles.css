@@ -659,6 +659,7 @@ a {
     letter-spacing: -.02em;
     color: #fbfbfb;
     width: 335px;
+    height: 100%;
     gap: 92px;
 }
 
@@ -736,23 +737,18 @@ a {
     text-align: center;
     border: 1px solid rgba(251, 251, 251, .2);
     border-radius: 16px;
-    margin-top: 14px;
+    margin-top: 20px;
     background: 0;
-    padding: 14px;
+    padding: 14px 20px;
     max-width: 152px;
     height: 44px;
     font-family: Gilroy-regular, sans-serif;
     font-weight: 500;
     font-size: 12px;
-    line-height: 1.33333;
+    line-height: 1.33;
     color: #fbfbfb;
     background-color: #0c0c0c;
-}
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    margin-bottom: 40px;
 }
 
 .subject-wrapper {
@@ -761,6 +757,7 @@ a {
     line-height: 1.2;
     letter-spacing: -.02em;
     text-align: center;
+    color: #fbfbfb;
 }
 
 .box {
@@ -768,8 +765,14 @@ a {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
+    /* flex-direction: row; */
+    flex-direction: column;
     height: 64px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
 }
 
 .nav-list {
@@ -801,4 +804,16 @@ a {
     line-height: 1.3;
     padding-left: 49px;
     padding-bottom: 16px;
+    width: 132px;
+}
+
+.footer-end {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-end-two {
+    display: flex;
+    flex-direction: row;
 }
