@@ -169,9 +169,9 @@ a {
     font-style: normal;
 }
 
-/*    hader          */
+/*    header          */
 
-.header-nav {
+/* .header-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -239,7 +239,7 @@ a {
     height: 100%;
     position: fixed;
     top: 0;
-    /* padding: 240px 39px 40px 39px; */
+    padding: 240px 64px 260px 63px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -248,7 +248,7 @@ a {
     background-image: url(../img/header-img/image-mob.jpg);
 }
 
-.is-open-menu {
+.is-open {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
@@ -260,7 +260,6 @@ a {
     justify-content: center;
     width: 73px;
     height: 238px;
-    margin: 240px 64px 260px 63px;
 }
 
 .menu-close-btn {
@@ -274,7 +273,6 @@ a {
     top: 20px;
     padding: 0;
     border: none;
-    /* margin-bottom: 186px; */
 }
 
 .menu-close-btn:hover,
@@ -295,18 +293,12 @@ a {
 
 .mob-menu-list {
     width: 73px;
-    /* height: 238px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    /* margin-bottom: auto; */
     justify-content: center;
 }
-
-/* .mob-menu-item {
-    margin-bottom: 24px;
-} */
 
 .mob-soc-icons {
     display: flex;
@@ -337,7 +329,7 @@ a {
 }
 
 .icon-link {
-    /* background-color: #54c38d; */
+    background-color: #54c38d;
 }
 
 @media screen and (min-width: 1158px) {
@@ -384,8 +376,7 @@ a {
     .mob-menu-wrap {
         width: 73px;
         height: 238px;
-        margin: 302px 129px 350px 128px;}
-}
+}  */
 
 /* section 1 */
 
@@ -562,14 +553,14 @@ a {
 .mobile-menu-list {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     width: 200px;
     height: 100%;
-    background-color: #0c0c0c;;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 240px 101px 58px 101px;
+    background-color: #2e2f42;
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
@@ -596,8 +587,9 @@ a {
 }
 
 .icon-x {
-    stroke-width: 2.50px;
-    stroke: #fbfbfb;
+    /* stroke-width: 2.50px;
+    stroke: #fbfbfb; */
+    fill: aliceblue;
 }
 
 .mobile-menu {
