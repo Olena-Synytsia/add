@@ -264,8 +264,8 @@ a {
 
 .menu-close-btn {
     position: absolute;
-    width: 34px;
-    height: 34px;
+    /* width: 34px;
+    height: 34px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -369,6 +369,11 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+    /* .menu-close-btn {
+        width: 20px;
+        height: 20px;
+    } */
+
     .mob-menu {
         width: 330px;
     }
@@ -376,6 +381,11 @@ a {
     .mob-menu-wrap {
         width: 73px;
         height: 238px;
+
+    .menu-icon-close {
+        width: 20px;
+        height: 20px;
+    }
 }  */
 
 /* section 1 */
